@@ -19,7 +19,7 @@ ON DELETE CASCADE ON UPDATE CASCADE
 
 CREATE TABLE journalist(
 j_email VARCHAR(40) NOT NULL REFERENCES employee(e_email),
-j_past DATE NOT NULL, /*I imerominia apo tin opoia o dimosiografos exei proypiresia*/ 
+j_past DATE NOT NULL, 
 j_cv TEXT NOT NULL, 
 j_type VARCHAR(40),
 PRIMARY KEY(j_email)

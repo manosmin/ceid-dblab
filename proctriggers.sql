@@ -2,7 +2,6 @@ DELIMITER $
 CREATE TRIGGER setEmployeeSalary BEFORE INSERT ON employee
 FOR EACH ROW
 BEGIN 
-	/*Kata tin eisagwgi enos ypallilou orise ton mistho sta 650*/
 	SET NEW.e_salary = 650;
 END$
 DELIMITER ;
@@ -11,8 +10,6 @@ DELIMITER $
 CREATE TRIGGER checkJournalistType BEFORE INSERT ON submits
 FOR EACH ROW
 BEGIN
-	/* Kata tin eisagwgi enos arthrou apo enan dimosiografo 
-	an o dimosiografos  einai arxisyntaktis tote to athro auto ginetai automata apodekto*/
 	IF ((SELECT j_type FROM journalist INNER JOIN submits WHERE journalist.j_email=NEW.s_journalist LIMIT 1) = 'Chief') 
 	THEN
 		INSERT INTO editorCheck VALUES(NEW.s_journalist, NEW.s_article, 'Accepted');
@@ -27,18 +24,13 @@ BEGIN
 	DECLARE totalArSize INT;
 	DECLARE leafPages INT;
 	DECLARE currArSize INT;
-	/*Poses selides exei to epilegmeno arthro*/
 	SET currArSize = (SELECT ar_size FROM article INNER JOIN leafContents 
 	WHERE article.ar_path=NEW.lc_article LIMIT 1);
-	/* Poses selides pianoun ola ta arthra pou exoun epilegei sto ekastote fyllo*/
 	SET totalArSize = (SELECT SUM(ar_size) FROM article INNER JOIN leafContents 
 	WHERE article.ar_path=NEW.lc_article LIMIT 1);
-	/* Poses selides diathetei to ekastote fyllo*/
 	SET leafPages = (SELECT l_pages FROM leaf INNER JOIN leafContents 
 	WHERE leaf.l_number=NEW.lc_number 
 	AND  leaf.l_newspaper=NEW.lc_newspaper LIMIT 1);
-	/* An oi selides tou arthrou athroistika me tis selides pou einai idi piasmenes ksepernoun 
-	tis selides pou diathetei to fyllo tote apetrepse tin eisagwgi */
 	IF((currArSize + totalArSize) > leafPages) THEN
 			SIGNAL SQLSTATE VALUE '45000'
 			SET MESSAGE_TEXT='Not enough space';
