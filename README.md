@@ -22,8 +22,7 @@ A user-friendly system that helps hospital staff efficiently manage patient reco
 
 
 ## Screenshots
-Entity Relationship Diagram
 ![ER](https://github.com/manosmin/ceid-dblab/blob/master/screenshots/er.png)
-Database Schema
+*Entity Relationship Diagram*
 ![Schema](https://github.com/manosmin/ceid-dblab/blob/master/screenshots/schema.png)
-
+*Database Schema*
