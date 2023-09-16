@@ -1,7 +1,7 @@
 
 # Database Systems Lab Project @CEID
 
-A user-friendly system that helps hospital staff efficiently manage patient records, appointments, medical histories, and other essential data.
+A user-friendly SQL database system that helps a publishing house manage its operations as handling authors, books, sales, inventory, and other related aspects of their business effectively.
 
 
 
