@@ -1,7 +1,7 @@
 
 # Database Systems Lab Project @CEID
 
-A user-friendly system that helps hospital staff efficiently manage patient records, appointments, medical histories, and other essential data.
+This project is aimed at designing and implementing a robust SQL database system to efficiently manage the operations of a fictional publishing house. This system will enable the publishing house to handle authors, books, sales, inventory, and other related aspects of their business effectively.
 
 
 
@@ -22,8 +22,8 @@ A user-friendly system that helps hospital staff efficiently manage patient reco
 
 
 ## Screenshots
-Entity Relationship Diagram
+*Entity Relationship Diagram*
 ![ER](https://github.com/manosmin/ceid-dblab/blob/master/screenshots/er.png)
-Database Schema
+*Database Schema*
 ![Schema](https://github.com/manosmin/ceid-dblab/blob/master/screenshots/schema.png)
 
