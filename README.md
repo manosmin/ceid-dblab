@@ -1,7 +1,7 @@
 
 # Database Systems Lab Project @CEID
 
-A user-friendly SQL database system that helps a publishing house manage its operations as handling authors, books, sales, inventory, and other related aspects of their business effectively.
+This project is aimed at designing and implementing a robust SQL database system to efficiently manage the operations of a fictional publishing house. This system will enable the publishing house to handle authors, books, sales, inventory, and other related aspects of their business effectively.
 
 
 
