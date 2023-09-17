@@ -12,6 +12,7 @@ This project is aimed at designing and implementing a robust SQL database system
 - Creating a DB (create, insert)
 - DB queries (select, update, delete)
 - Programming in DBMSs (triggers, stored procedures)
+- GUI
 
 ## Tech Stack
 
@@ -22,7 +23,7 @@ This project is aimed at designing and implementing a robust SQL database system
 
 
 ## Screenshots
-*Search*</br>
+*Search Articles*</br>
 ![Schema](https://github.com/manosmin/ceid-dblab/blob/master/screenshots/ss1.png)</br>
 *Display Results*</br>
 ![Schema](https://github.com/manosmin/ceid-dblab/blob/master/screenshots/ss2.png)</br>
