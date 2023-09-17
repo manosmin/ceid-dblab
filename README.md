@@ -12,6 +12,7 @@ This project is aimed at designing and implementing a robust SQL database system
 - Creating a DB (create, insert)
 - DB queries (select, update, delete)
 - Programming in DBMSs (triggers, stored procedures)
+- GUI
 
 ## Tech Stack
 
