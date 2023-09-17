@@ -25,9 +25,9 @@ This project is aimed at designing and implementing a robust SQL database system
 *Entity Relationship Diagram*
 ![ER](https://github.com/manosmin/ceid-dblab/blob/master/screenshots/er.png)
 *Database Schema*
-![Schema](https://github.com/manosmin/ceid-dblab/blob/master/screenshots/schema.png)
-*Search*
-![Schema](https://github.com/manosmin/ceid-dblab/blob/master/screenshots/ss1.png)
-*Display Results*
+![Schema](https://github.com/manosmin/ceid-dblab/blob/master/screenshots/schema.png)</br>
+*Search*</br>
+![Schema](https://github.com/manosmin/ceid-dblab/blob/master/screenshots/ss1.png)</br>
+*Display Results*</br>
 ![Schema](https://github.com/manosmin/ceid-dblab/blob/master/screenshots/ss2.png)
 
